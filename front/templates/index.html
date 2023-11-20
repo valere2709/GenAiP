@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+
+<link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+    </style>
+  </head>
+  <body>
+    <div id="page2" class="slide-in">
+        <img src="{{ url_for('static', filename='image/logo.png') }}">
+        <h1 class="center-text">자폐 환자를 위한 자가 진단 및 완화 시스템</h1>
+        <p class="center-text">본 검사는 자폐를 가진 환자의 공감 능력을 진단해볼 수 있는 검사입니다.</p>
+        <p class="center-text" class="explain_b">다음 상황에 대해 드는 감정을 각 빈 칸에 적고, 제출 버튼을 눌러주세요.</p>
+
+      <a href="/page1" >start</a>
+    </div>
+  </body>
+</html>

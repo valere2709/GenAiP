@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  #page1,
+  #page2,
+  #page3  {
+    height:1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+  }
+  #qu{
+    height:100px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 10px 30px;
+  }
+  /* pag21 = 검사화면 */
+  #page1 {
+    background-color: rgb(71, 140, 62);
+  }
+ /* page2 = inde 시작페이지x */
+  #page2 {
+    background-color: rgb(250, 193, 68);
+  }
+  #page3 {
+    background-color: rgb(93, 109, 190);
+  }
+  .slide-in {
+    animation: change 0.5s ease forwards;
+  }
+
+ /* #page2 {
+    background-color: DarkOrange;
+  }
+  #page3 {
+    background-color: rgb(83, 83, 221);
+  }
+  .slide-in {
+    animation: change 0.5s ease forwards;
+  }
+  */
+  @keyframes change {
+    from {
+      transform: translateX(100%);
+      visibility: visible;
+    }
+
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  .center-text {
+        text-align: center;
+    }
+    .center-box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items:center;
+    }
+    textarea {
+        width: 75%;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 80px;
+        height:30px;
+        line-height:30px;
+    }
+    div {
+        width: 600px;
+        height: 120px;
+    }
+    .title{
+        border-bottom: 2px solid black;
+        text-align: center;
+        margin: auto;
+        width: 900px;
+        height:100px;
+        padding-top:30px;
+    }
+    .explain_b{
+        margin-top: -5px;
+    }
+    body{
+        background-color:#fafafa;
+        height: 1200px;
+    }
+    .an{
+        resize: none;
+    }
+    footer{
+     position: absolute;
+     bottom: 0;
+    }
+    form{
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+    }
+    .button{
+      width:120px;
+      height:40px;
+    }

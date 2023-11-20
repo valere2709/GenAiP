@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자폐 스펙트럼 장애 환자를 위한 자가 진단 및 완화 서비스</title>
+<link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+</head>
+<body>
+
+    <div id="page1" class="slide-in">
+        <form method="POST" class="center-box">
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">1. 나는 사람들과의 대화를 즐깁니다.</p>
+                <textarea name="user_input1" class="an" placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">1. 나는 사람들과의 대화를 즐깁니다.</p>
+                <textarea name="user_input2" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">1. 나는 사람들과의 대화를 즐깁니다.</p>
+                <textarea name="user_input3" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">1. 나는 사람들과의 대화를 즐깁니다.</p>
+                <textarea name="user_input4" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">1. 나는 사람들과의 대화를 즐깁니다.</p>
+                <textarea name="user_input5" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">1. 나는 사람들과의 대화를 즐깁니다.</p>
+                <textarea name="user_input6" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">1. 나는 사람들과의 대화를 즐깁니다.</p>
+                <textarea name="user_input7" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">1. 나는 사람들과의 대화를 즐깁니다.</p>
+                <textarea name="user_input8" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">1. 나는 사람들과의 대화를 즐깁니다.</p>
+                <textarea name="user_input9" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">1. 나는 사람들과의 대화를 즐깁니다.</p>
+                <textarea name="user_input10"class="an" placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <a>
+                <button type="submit" onClick="location.href='/result'">제출</button>
+                <button type="submit" value="버튼" class="button" onClick="location.href='/result'">제출</button>
+            </a>
+
+<button type="submit" value="버튼" class="button" onClick="redirectToResultPage()">제출</button>
+
+<script>
+function redirectToResultPage() {
+    // '/result' 경로로 페이지 이동
+    window.location.href = '/result';
+}
+</script>
+
+
+        </form>
+        <br>
+    <footer>
+        <p>Copyright © 2023 by HUNTER All rights reserved.</p>
+    </footer>
+    </div>
+</body>
+    </div>
+
+</html>

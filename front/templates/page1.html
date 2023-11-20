@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자폐 스펙트럼 장애 환자를 위한 자가 진단 및 완화 서비스</title>
+<link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+</head>
+<body>
+
+    <div id="page1" class="slide-in">
+        <form method="POST" class="center-box">
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">1. 다인이가 키우는 강아지가 죽었다. 이때 다인이가 느끼는 감정은 무엇일까?</p>
+                <textarea name="user_input1" class="an" placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">2. 수현이가 대회에서 상을 받았다. 이때 수현이에게 드는 감정은 무엇일까?</p>
+                <textarea name="user_input2" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">3. 친구가 당신을 싫어한다는 말을  했을 때 느끼는 감정은 무엇일까?</p>
+                <textarea name="user_input3" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">4. 친구가 당신에게 생일을 축하해줄 때 느끼는 감정은 무엇일까?</p>
+                <textarea name="user_input4" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">5. 친구가 당신에게 평소 가지고 싶던 물건을 선물해줬을 때 느끼는  감정은 무엇일까?</p>
+                <textarea name="user_input5" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">6. 당신이 아끼던 물건을 잃어버렸을 때 느끼는 감정은 무엇일까?</p>
+                <textarea name="user_input6" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">7. 친구와 길을 걷던 도중 친구가 넘어졌다면 어떤 감정을 느끼는가?</p>
+                <textarea name="user_input7" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">8. 당신이 가장 좋아하는 음식을 먹기 위해 기다릴 때의 감정은 무엇일까?</p>
+                <textarea name="user_input8" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">9. 친한 친구와 사소한 말다툼이 있을 때 느끼는 감정은 무엇일까?</p>
+                <textarea name="user_input9" class="an"placeholder="내용을 입력하세요..."></textarea>
+            </div>
+            <div id="qu">
+                <p class="center-text" style="font-size:20px">10. 당신이 어두운 길을 혼자 걸을 때 느끼는 감정은 무엇일까?</p>
+                <textarea name="user_input10"class="an" placeholder="내용을 입력하세요..."></textarea>
+            </div>
+
+        <br>
+                <form method="POST" action="/run_init_script">
+                <button type="submit">제출</button>
+    </form>
+
+<form method="POST" action="/run_init_script">
+        <button type="submit">init.py 실행</button>
+    </form>
+    <footer>
+        <p>Copyright © 2023 by HUNTER All rights reserved.</p>
+    </footer>
+    </div>
+</body>
+
+</html>
